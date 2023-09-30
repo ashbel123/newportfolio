@@ -1,6 +1,5 @@
 import React from "react";
 import "./Menus.css";
-// import ash from '../../assets/images/CIRCLE.png'
 import {
   FcAbout,
   FcBiotech,
@@ -12,18 +11,12 @@ import {
 } from "react-icons/fc";
 import { Link } from "react-scroll";
 import Fade from "react-reveal/Fade";
-// import { BsFillPersonCheckFill } from 'react-icons/bs';
 const Menus = ({ toggle }) => {
   return (
     <>
       {toggle ? (
         <>
-          {/* <div className="navbar-profile-pic">
-            <img
-              src={ash}
-              alt="profile pic"
-            />
-          </div>  */}
+          
           <div className="navbar-name">
             <h2>Ashbel Raj</h2>
           </div>

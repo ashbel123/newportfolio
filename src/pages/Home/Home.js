@@ -2,7 +2,6 @@ import React from 'react'
 import Typewriter from "typewriter-effect";
 import './Home.css';
 import Resume from '../../assets/docs/Balli Ashbel Raj_20121A0528.pdf.pdf';
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import LightSpeed from "react-reveal/LightSpeed";
 const Home = () => {
    return (

@@ -8,9 +8,6 @@
     
     width: 90px;
     position: fixed;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* display: flex; */
 }
 .sidebar-toggle{
     width: 200px;
@@ -21,8 +18,7 @@
     align-items: right;
     justify-content: right;
     cursor: pointer;
-    
-    /* background-color: white; */
+  
 }
 .sidebar-toggle-icons p svg{
     background-color: #FAF0E6;
