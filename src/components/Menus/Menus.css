@@ -1,12 +1,4 @@
-.navbar-profile-pic img{
-    border-radius: 90px; 
-    height: 150px;
-    width: 150px;
-     display: flex;
-     /* vertical-align: middle; */
-     margin-left: 50%;
-     margin-top: 5px;
-}
+
 .navbar-name{
     color: white;
     margin-left: 10px;

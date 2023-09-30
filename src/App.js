@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <>
-      <div id={theme}>
+      <div >
         <ToastContainer />
         <MobileNav />
         <Layout />

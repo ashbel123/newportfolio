@@ -28,7 +28,7 @@ const Projects = () => {
                   <span className="card-detail-badge">Node</span>
                   <span className="card-detail-badge">Express</span>
                   <span className="card-detail-badge">React</span>
-                  {/* <span className="card-detail-badge">Mongodb</span> */}
+                  
                 </div>
                 <div className="card-body text-center ">
                   <div className="ad-title m-auto">
@@ -57,7 +57,7 @@ const Projects = () => {
                 <div className="card-body text-center ">
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">
-                      Netflix-clone (Front-page)
+                      Landing Page -NETFLIX
                     </h5>
                   </div>
                   <a

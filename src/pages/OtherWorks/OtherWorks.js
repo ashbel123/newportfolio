@@ -17,11 +17,11 @@ const OtherWorks = () => {
         <hr />
 
         <div className="row pod">
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img">
+          {/* <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img">
             <img src={ashpodimg} alt="profile_pic" />
             <h6 mt-5>@ashbelraj</h6>
-          </div>
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-content ">
+          </div> */}
+          <div className="otherworks-content ">
             <h1>Podcast-Link</h1>
             <p>
               You can listen to my podcasts(Telugu language) through all the
@@ -47,12 +47,12 @@ const OtherWorks = () => {
             </div>
           </div>
         </div>
-        <div className="row yt">
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img-yt ">
+        <div className="row yt text-center">
+          {/* <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img-yt ">
             <img src={youtube} alt="youtube-profile-pic"  />
             <h6>@ashbelraj9983</h6>
-          </div>
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-content ">
+          </div> */}
+          <div className=" otherworks-content ">
             <h1>Youtube-Link</h1>
             <p>Check Out my Youtube Channel</p>
             <div className="card m-2 ">
@@ -72,11 +72,11 @@ const OtherWorks = () => {
           </div>
         </div>
         <div className="row insta">
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img">
+          {/* <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-img">
             <img src={insta} alt="insta-profile-pic" />
             <h6>@ashbelraj</h6>
-          </div>
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 otherworks-content ">
+          </div> */}
+          <div className="otherworks-content ">
             <h1>Instagram-Link</h1>
             <p>Check Out my Instagram </p>
             <div className="card m-2 ">

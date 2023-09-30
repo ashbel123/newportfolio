@@ -1,16 +1,13 @@
 import React from "react";
 import "./About.css";
-import  ash from '../../assets/images/04 (1).JPG'
+import ash from "../../assets/images/04 (1).JPG";
 const About = () => {
   return (
     <>
       <div className="about" id="about">
         <div className="row">
           <div className="col-md-4 col-xl-4 col-lg-4 col-xs-12 about-img">
-            <img
-              src={ash}
-              alt="profile_pic"
-            />
+            <img src={ash} alt="profile_pic" />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content ">
             <h1>About me</h1>
