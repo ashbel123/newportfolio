@@ -4,12 +4,12 @@ import "./Menus.css";
 import {
   FcAbout,
   FcBiotech,
+  FcEditImage,
+  FcGraduationCap,
   FcHome,
   FcPhone,
-  FcRotateToPortrait,
   FcVideoProjector,
 } from "react-icons/fc";
-import { IoIosSchool } from "react-icons/io";
 import { Link } from "react-scroll";
 import Fade from "react-reveal/Fade";
 // import { BsFillPersonCheckFill } from 'react-icons/bs';
@@ -30,7 +30,6 @@ const Menus = ({ toggle }) => {
           <Fade left>
             <div className="nav-items">
               <div className="nav-item">
-                
                 <div className="nav-link">
                   <Link
                     to="home"
@@ -63,7 +62,7 @@ const Menus = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <IoIosSchool />
+                    <FcGraduationCap />
                     Education
                   </Link>
                 </div>
@@ -101,7 +100,7 @@ const Menus = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <FcRotateToPortrait />
+                    <FcEditImage />
                     Hobbies
                   </Link>
                 </div>
@@ -123,7 +122,7 @@ const Menus = ({ toggle }) => {
         </>
       ) : (
         <>
-          <div className="nav-items toggle">
+          <div className=" toggle nav-items-tog">
             <div className="nav-item">
               <div className="nav-link">
                 <Link
@@ -155,7 +154,7 @@ const Menus = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <IoIosSchool title="Education" />
+                  <FcGraduationCap title="Education" />
                 </Link>
               </div>
 
@@ -190,7 +189,7 @@ const Menus = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <FcRotateToPortrait title="Hobbies" />
+                  <FcEditImage title="Hobbies" />
                 </Link>
               </div>
               <div className="nav-link">

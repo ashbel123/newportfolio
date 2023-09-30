@@ -26,7 +26,7 @@ const Home = () => {
           <div className="home-buttons">
             <LightSpeed left>
               <a
-                href="https://api.whatsapp.com/send?phone=7670914679"
+                href="https://api.whatsapp.com/send?phone=9603727120"
                 rel="noreferrer"
                 target="_blank"
                 className="btn btn-hire"

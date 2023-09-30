@@ -4,14 +4,14 @@
     /* text-align: center; */
 }
 .techstack hr{
-    color: #138781;
+    color: #B2533E;
     height: 2px;
     width: 60%;
     margin: 10px auto;
 }
 .techstack h2{
     font-weight: bold;
-    color: #138781;
+    color: #B2533E;
 }
 .techstack .card{
     cursor: pointer;
@@ -25,7 +25,7 @@
 .techstack .card:hover{
 
     color: white;
-    background-color: #138781;
+    background-color: #B2533E;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transition: 1s;
 }

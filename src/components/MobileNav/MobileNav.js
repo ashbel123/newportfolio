@@ -5,10 +5,10 @@ import {
   FcBiotech,
   FcHome,
   FcPhone,
-  FcRotateToPortrait,
+  FcGraduationCap,
   FcVideoProjector,
+  FcEditImage,
 } from "react-icons/fc";
-import { IoIosSchool } from "react-icons/io";
 import { BiMenuAltLeft,BiMenuAltRight } from "react-icons/bi";
 import { Link } from 'react-scroll';
 const MobileNav = () => {
@@ -41,7 +41,7 @@ const MobileNav = () => {
             />
           )}
 
-          <span className="mobile-nav-title"> My Portfolio App</span>
+          <span className="mobile-nav-title"> Balli Ashbel Raj</span>
         </div>
 
         {open && (
@@ -83,7 +83,7 @@ const MobileNav = () => {
                     duration={100}
                     onClick={handleMenuClick}
                   >
-                    <IoIosSchool />
+                    <FcGraduationCap />
                     Education
                   </Link>
                 </div>
@@ -124,8 +124,8 @@ const MobileNav = () => {
                     duration={100}
                     onClick={handleMenuClick}
                   >
-                    <FcRotateToPortrait />
-                    OtherLinks & Hobbies
+                    <FcEditImage />
+                    Hobbies
                   </Link>
                 </div>
                 <div className="nav-link">

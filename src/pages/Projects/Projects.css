@@ -3,14 +3,14 @@
     margin-left: 140px;
 }
 .project hr {
-    color: #138781;
+    color: #B2533E;
     width: 60%;
     margin: 10px auto;
 }
 
 .project h2 {
     font-weight: bold;
-    color: #138781;
+    color: #B2533E;
 }
 #ads{
     margin: 30px 0px;
@@ -19,7 +19,7 @@
     position: absolute;
     left: -10px;
     top: -20px;
-    background: #f29f67;
+    background: #d99149;
     text-align: center;
     border-radius: 30px;
     color: black;
@@ -68,8 +68,8 @@
     height: 40px;
     display: block;
     text-align: center;
-    background-color:  #138781;
-    color: black;
+    background-color:  #B2533E;
+    color: #FAF0E6;
     border-radius: 80px;
     font-size: 16px;
     line-height: 35px;
@@ -82,9 +82,9 @@
 
 .ad-btn:hover{
     background-color: white;
-    color: #138781;
+    color: #B2533E;
     background: transparent;
-    border: 2px solid #138781;
+    border: 2px solid #B2533E;
     transition: all 0.5s ease;
     box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }

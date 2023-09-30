@@ -17,7 +17,7 @@ const Projects = () => {
         </p>
         {/* CARD DESIGN */}
         <div className="row" id="ads">
-          <Fade top >
+          <Fade top>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -28,13 +28,17 @@ const Projects = () => {
                   <span className="card-detail-badge">Node</span>
                   <span className="card-detail-badge">Express</span>
                   <span className="card-detail-badge">React</span>
-                  
                 </div>
                 <div className="card-body text-center ">
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase"> Personal- Portfolio</h5>
                   </div>
-                  <a href="#" className="ad-btn">
+                  <a
+                    href="https://github.com/ashbel123/my-portfolio"
+                    className="ad-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View
                   </a>
                 </div>
@@ -56,13 +60,13 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center ">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">
-                      Landing Page -NETFLIX
-                    </h5>
+                    <h5 className="text-uppercase">Landing Page -NETFLIX</h5>
                   </div>
                   <a
                     href="https://github.com/ashbel123/Netflix_Clone"
                     className="ad-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
                   </a>
@@ -70,7 +74,7 @@ const Projects = () => {
               </div>
             </div>
           </Fade>
-          <Fade right >
+          <Fade right>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -90,6 +94,8 @@ const Projects = () => {
                   <a
                     href="https://github.com/ashbel123/tic-tac-toe"
                     className="ad-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
                   </a>

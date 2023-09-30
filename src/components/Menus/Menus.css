@@ -1,6 +1,6 @@
 
 .navbar-name{
-    color: white;
+    color: #FAF0E6;
     margin-left: 10px;
 }
 .nav-item{
@@ -27,18 +27,32 @@
     text-align: center;
     font-size: x-large;
 }
+
 .toggle .nav-link{
-    margin-top: 40px;
+    margin-top: 30px;
+    /* margin-bottom: 2px; */
 }
-.nav-link svg{
+.toggle .nav-items-tog{
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+.nav-link  svg{
     margin-right: 10px;
+    /* margin-top: -25px; */
+    /* padding: 2px; */
+    /* padding-bottom: 10px; */
+    height: auto;
+    /* border: 2px solid wheat; */
+    
 }
 .nav-link:hover{
-   color: #f29f67;
+   color: #FCE09B;
 }
 .nav-link .active{
-    color: #f29f67;
-    border-left: 5px solid #f29f67;
+    /* padding-top: -25px; */
+    /* height: auto; */
+    color: #FCE09B;
+    border-left: 5px solid #FCE09B;
     padding-left: 10px;
     text-decoration: none;
 }

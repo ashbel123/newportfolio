@@ -24,18 +24,18 @@
     margin-top: 20px;
 }
 .home-buttons .btn-hire{
-    background-color: #3b8ff3;
-    color:white;
+    background-color: #40E0D0;
+    color:black;
     width: 160px;
 }
 .home-buttons .btn-hire:hover {
-    background-color: #3b8ff3;
-    color: white;
+    background-color: #40E0D0;
+    color: black;
     width: 200px;
     transition: 1s;
 }
 .home-buttons .btn-cv{
-    background-color: #f29f67;
+    background-color: #c73f52;
     color: white;
     margin-left: 15px;
 }

@@ -5,10 +5,10 @@ import { PiGooglePodcastsLogoBold } from "react-icons/pi";
 import { SiApplepodcasts } from "react-icons/si";
 import { AiOutlineAmazon } from "react-icons/ai";
 // import ashYtImage from "../../assets/images/ash-yt.jpg";
-import ashpodimg from "../../assets/images/ash-pod.jpg";
+// import ashpodimg from "../../assets/images/ash-pod.jpg";
 // import ashinsta from "../../assets/images/ash-insta.png";
-import youtube from "../../assets/images/yt_logo_rgb_dark.png";
-import insta from "../../assets/images/instagram.png";
+// import youtube from "../../assets/images/yt_logo_rgb_dark.png";
+// import insta from "../../assets/images/instagram.png";
 const OtherWorks = () => {
   return (
     <>
@@ -29,20 +29,26 @@ const OtherWorks = () => {
             </p>
             <div className="card m-2">
               <div className="card-content">
+                    <a
+                      href="https://l.linklyhq.com/l/1nDOe"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                 <div className="card-body">
                   <div className="media d-flex justify-content-center">
-                    <div className="align-self-center">
-                      <BsSpotify className="other-icon logos" />
-                      <PiGooglePodcastsLogoBold className="other-icon" />
-                      <SiApplepodcasts className="other-icon" />
-                      <AiOutlineAmazon className="other-icon" />
-                      {/* <div className="sudo"></div> */}
-                    </div>
+                      <div className="align-self-center ">
+                        <BsSpotify className="other-icon logos" />
+                        <PiGooglePodcastsLogoBold className="other-icon" />
+                        <SiApplepodcasts className="other-icon" />
+                        <AiOutlineAmazon className="other-icon" />
+                        {/* <div className="sudo"></div> */}
+                      </div>
                     <div className="media-body">
                       <h5> </h5>
                     </div>
                   </div>
                 </div>
+                    </a>
               </div>
             </div>
           </div>
@@ -57,16 +63,22 @@ const OtherWorks = () => {
             <p>Check Out my Youtube Channel</p>
             <div className="card m-2 ">
               <div className="card-content">
+                      <a
+                        href="https://www.youtube.com/@ashbelraj9983"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                 <div className="card-body">
                   <div className="media d-flex justify-content-center">
                     <div className="align-self-center icon-text">
-                      <BsYoutube className="other-icon" />
+                        <BsYoutube className="other-icon" />
                     </div>
                     <div className="media-body">
-                      <h5> ashbelraj9983</h5>
+                      <h5 color="white"> ashbelraj9983</h5>
                     </div>
                   </div>
                 </div>
+                      </a>
               </div>
             </div>
           </div>
@@ -81,16 +93,22 @@ const OtherWorks = () => {
             <p>Check Out my Instagram </p>
             <div className="card m-2 ">
               <div className="card-content">
+                      <a
+                        href="https://instagram.com/ashbelraj?igshid=NTc4MTIwNjQ2YQ=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                 <div className="card-body">
                   <div className="media d-flex justify-content-center">
                     <div className="align-self-center icon-text">
-                      <BsInstagram className="other-icon" />
+                        <BsInstagram className="other-icon" />
                     </div>
                     <div className="media-body">
                       <h5> ashbelraj</h5>
                     </div>
                   </div>
                 </div>
+                      </a>
               </div>
             </div>
           </div>

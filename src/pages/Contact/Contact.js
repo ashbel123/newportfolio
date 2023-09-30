@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact" id="contact">
-        <div className="card card0 border-0">
+        <div className="card card0 border-0 ">
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
@@ -62,20 +62,46 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <div className="card2 d-flex card border-0 px-4 py-5">
+              <div
+                className="card2 d-flex card border-0 px-4 py-5 "
+                style={{ boxShadow: "none" }}
+              >
                 <div className="row">
                   <div className="row">
                     <h6>
                       Contact with
-                      <BsLinkedin color="blue" size="30px" className="ms-2" />
-                      <BsGithub color="black" size="30px" className="ms-2" />
-                      <FaXTwitter color="black" size="30px" className="ms-2" />
+                      <a
+                        href="https://www.linkedin.com/in/ashbel-raj-4a8566226/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <BsLinkedin color="blue" size="30px" className="ms-2" />
+                      </a>
+                      <a
+                        href="https://github.com/ashbel123"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <BsGithub color="black" size="30px" className="ms-2" />
+                      </a>
+                      <a
+                        href="https://x.com/ASHBEL_RAj?t=w_q4ZoKwH5cWtBelSasNPg&s=09"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaXTwitter
+                          color="black"
+                          size="30px"
+                          className="ms-2"
+                        />
+                      </a>
                     </h6>
                   </div>
                   <div className="row px-3 mb-4 extra">
-                    <div className="line" />
+                    {/* <div className="line" /> */}
                     <small className="or text-center">OR</small>
-                    <div className="line" />
+                    {/* <div className="line" /> */}
+                    <hr />
                   </div>
                   <form ref={form} onSubmit={sendEmail}>
                     <div className="row px-3">
