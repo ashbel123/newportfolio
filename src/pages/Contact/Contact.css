@@ -1,0 +1,110 @@
+.contact{
+    margin-left: 150px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.card0{
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+}
+.card2{
+    margin: 0px 4px;
+}
+.card2 h6{
+    text-align: center;
+}
+.card2 .extra{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.card1 .image{
+ padding: 30px;
+ margin-top: 30px;
+ height: 100%;
+ width: 100%;
+}
+.border-line{
+    border-right: 1px solid #e0e0e0;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+    padding-left: 6px;
+    /* margin-right: 10px; */
+}
+::placeholder{
+    color: grey;
+    opacity: 1;
+    font-weight: 300;
+
+}
+input,textarea{
+    padding: 10px 12px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-top: 2px;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    
+}
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid blue !important;
+    outline-width: 0px;
+}
+button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+
+}
+.button{
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+.button:hover{
+    background-color: #000;
+    color: white;
+}
+.contact .label {
+    font-size: 20px;
+    font-weight: semibold;
+}
+/* ************************************** */
+@media (max-width: 600px){
+    .contact {
+            margin: 0;
+            padding: 0;
+            margin-top: 50px;
+        }
+
+        .contact .card2{
+            margin: 0;
+            
+
+        }
+        .contact .card2 .h6{
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+        }
+        .contact .card2 .row{
+            padding: 0px;
+        }
+}
