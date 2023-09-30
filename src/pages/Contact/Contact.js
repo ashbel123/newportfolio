@@ -49,33 +49,6 @@ const Contact = () => {
       );
     }
   };
-
-  //handle submit button
-  // eslint-disable-next-line
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     if (!name || !email || !msg) {
-  //       toast.error("Please Provide all Fields");
-  //     }
-  //     const res = await axios.post("/api/v1/portfolio/sendEmail", {
-  //       name,
-  //       email,
-  //       msg,
-  //     });
-  //     //validation success
-  //     if (res.data.success) {
-  //       toast.success(res.data.message);
-  //       setName("");
-  //       setEmail("");
-  //       setMsg("");
-  //     } else {
-  //       toast.error(res.data.message);
-  //     }
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
   return (
     <>
       <div className="contact" id="contact">
@@ -104,44 +77,6 @@ const Contact = () => {
                     <small className="or text-center">OR</small>
                     <div className="line" />
                   </div>
-                  {/* <form>
-                    <div className="row px-3">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Write your Name"
-                        className="mb-3"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="Write your Email"
-                        className="mb-3"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <textarea
-                        type="text"
-                        name="msg"
-                        placeholder="Write your Message"
-                        className="mb-3"
-                        value={msg}
-                        onChange={(e) => setMsg(e.target.value)}
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <button className="button" onClick={sendEmail}>
-                        SEND MESSAGE
-                      </button>
-                    </div>
-                  </form> */}
-
                   <form ref={form} onSubmit={sendEmail}>
                     <div className="row px-3">
                       <label className="label">Name</label>
@@ -177,7 +112,6 @@ const Contact = () => {
                         onChange={(e) => setMsg(e.target.value)}
                       />
                     </div>
-                    {/* <input type="submit" value="Send" /> */}
                     <div className="row px-3">
                       <button
                         className="button text-center"

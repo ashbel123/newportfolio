@@ -15,7 +15,7 @@ const TechStack = () => {
         <div className="row">
           <Fade>
             {TechstackList.map((tech) => (
-              <div key={tech._id} className="col-md-3 col-sm-6">
+              <div key={tech._id} className="col-md-4 col-sm-6">
                 <div className="card m-2">
                   <div className="card-content">
                     <div className="card-body">

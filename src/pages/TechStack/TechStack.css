@@ -1,10 +1,12 @@
 .techstack{
     padding-left: 140px;
     margin-top: 60px;
+    /* text-align: center; */
 }
 .techstack hr{
     color: #138781;
-    width: 400px;
+    height: 2px;
+    width: 60%;
     margin: 10px auto;
 }
 .techstack h2{
@@ -13,6 +15,7 @@
 }
 .techstack .card{
     cursor: pointer;
+   
 }
 .techstack .tech-icon{
   font-size: 2rem;
