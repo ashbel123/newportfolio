@@ -108,3 +108,9 @@ button:focus{
             padding: 0px;
         }
 }
+@media only screen and (width: 768px),
+only screen and (width: 1024px),only screen and (width: 820px)and (height:1180px) {
+    .contact {
+        margin-left: 190px;
+    }
+}

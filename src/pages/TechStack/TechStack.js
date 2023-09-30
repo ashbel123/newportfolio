@@ -15,16 +15,21 @@ const TechStack = () => {
         <div className="row">
           <Fade>
             {TechstackList.map((tech) => (
-              <div key={tech._id} className="col-md-3">
+              <div key={tech._id} className="col-md-3 col-sm-6">
                 <div className="card m-2">
                   <div className="card-content">
                     <div className="card-body">
                       <div className="media d-flex justify-content-center">
                         <div className="align-self-center">
-                          <tech.icon className="tech-icon" />
+                          <tech.icon
+                            className="tech-icon"
+                            style={{ fontSize: "1.5rem" }}
+                          />
                         </div>
                         <div className="media-body">
-                          <h5>{tech.name}</h5>
+                          <h5 style={{ fontSize: "1rem", maxWidth: "100%" }}>
+                            {tech.name}
+                          </h5>
                         </div>
                       </div>
                     </div>

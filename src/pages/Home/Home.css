@@ -1,8 +1,8 @@
 .home-container{
     /* background-color: blue; */
     color: white;
-    height: 300px;
     padding-left: 150px;
+    height: 300px;
 
 }
 .home-content h2{
@@ -51,14 +51,27 @@
 /* ************************* */
 @media (max-width:600px){
     .home-container{
-        padding: 0;
+        padding-left: 15px;
+        /* text-align: center; */
+        height: auto;
         margin: 0;
         margin-top: 50px;
+        padding-bottom: 10px;
     }
     .home-container h2{
+        padding-top: 20px;
         font-size: 24px;
     }
     .home-container h1{
         font-size: 24px;
+    }
+    .home-buttons{
+        margin-top: 10px;
+    }
+}
+@media only screen and (width: 768px) and (height: 1024px),
+only screen and (width: 1024px) and (height: 600px){
+    .home-container{
+        margin-left: 20px;
     }
 }

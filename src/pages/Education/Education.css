@@ -42,3 +42,11 @@
         margin-bottom: 10px;
     }
 }
+
+@media only screen and (width: 768px),
+only screen and (width: 1024px),
+only screen and (width: 820px)and (height:1180px) {
+    .education {
+        margin-left: 160px;
+    }
+}

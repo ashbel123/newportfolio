@@ -139,3 +139,10 @@
     }
     
  }
+ @media only screen and (width: 768px),
+ only screen and (width: 1024px),
+only screen and (width: 820px)and (height:1180px) {
+     .otherworks {
+         margin-left: 190px;
+     }
+ }
