@@ -1,4 +1,4 @@
-import { React ,useState} from "react";
+import { React, useState } from "react";
 import "./MobileNav.css";
 import {
   FcAbout,
@@ -9,20 +9,20 @@ import {
   FcVideoProjector,
   FcEditImage,
 } from "react-icons/fc";
-import { BiMenuAltLeft,BiMenuAltRight } from "react-icons/bi";
-import { Link } from 'react-scroll';
+import { BiMenuAltLeft, BiMenuAltRight } from "react-icons/bi";
+import { Link } from "react-scroll";
 const MobileNav = () => {
-    const [open, setOpen] = useState(false);
-    
-    //handle open
-    const handleOpen = () => {
-        setOpen(!open);
-    };
+  const [open, setOpen] = useState(false);
 
-    //handle menu clicks
-    const handleMenuClick = () => {
-        setOpen(false);
-    }
+  //handle open
+  const handleOpen = () => {
+    setOpen(!open);
+  };
+
+  //handle menu clicks
+  const handleMenuClick = () => {
+    setOpen(false);
+  };
   return (
     <>
       <div className="mobile-nav">
