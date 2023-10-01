@@ -10,7 +10,7 @@ import {
   FcVideoProjector,
 } from "react-icons/fc";
 import { Link } from "react-scroll";
-import Fade from "react-reveal/Fade";
+import { Fade} from "react-awesome-reveal";
 const Menus = ({ toggle }) => {
   return (
     <>

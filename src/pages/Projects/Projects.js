@@ -3,7 +3,7 @@ import "./Projects.css";
 import proj from "../../assets/images/proj.jpg";
 import tictactoe from "../../assets/images/tic-tac-toe.jpg";
 import netflix from "../../assets/images/netflix.jpg";
-import Fade from "react-reveal/Fade";
+
 const Projects = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Projects = () => {
         </p>
         {/* CARD DESIGN */}
         <div className="row" id="ads">
-          <Fade top>
+         
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -44,8 +44,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Fade>
-          <Fade bottom>
+          
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -73,8 +72,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Fade>
-          <Fade right>
+          
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -102,7 +100,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+         
         </div>
       </div>
     </>

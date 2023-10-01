@@ -1,7 +1,7 @@
 import React from "react";
 import "./TechStack.css";
 import { TechstackList } from "../../utils/TechstackList";
-import Fade from "react-reveal/Fade";
+
 const TechStack = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const TechStack = () => {
           back-end tools.
         </p>
         <div className="row">
-          <Fade>
+          
             {TechstackList.map((tech) => (
               <div key={tech._id} className="col-md-4 col-sm-6">
                 <div className="card m-2">
@@ -37,7 +37,7 @@ const TechStack = () => {
                 </div>
               </div>
             ))}
-          </Fade>
+          
         </div>
       </div>
     </>

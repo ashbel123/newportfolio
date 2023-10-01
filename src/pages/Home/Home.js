@@ -2,7 +2,7 @@ import React from 'react'
 import Typewriter from "typewriter-effect";
 import './Home.css';
 import Resume from '../../assets/docs/Balli Ashbel Raj_20121A0528.pdf.pdf';
-import LightSpeed from "react-reveal/LightSpeed";
+
 const Home = () => {
    return (
     <>
@@ -23,7 +23,7 @@ const Home = () => {
             />
           </h1>
           <div className="home-buttons">
-            <LightSpeed left>
+            
               <a
                 href="https://api.whatsapp.com/send?phone=9603727120"
                 rel="noreferrer"
@@ -32,12 +32,12 @@ const Home = () => {
               >
                 Hire Me
               </a>
-            </LightSpeed>
-            <LightSpeed right>
+            
+            
             <a className="btn btn-cv" href={Resume} download="ashbelraj.pdf">
               My Resume
             </a>
-            </LightSpeed>
+            
           </div>
         </div>
       </div>
