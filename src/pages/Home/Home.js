@@ -14,7 +14,7 @@ const Home = () => {
               options={{
                 strings: [
                   "Full Stack Developer!",
-                  "Flutter Developer!",
+                  "Mern Stack Developer!",
                   "Podcaster",
                 ],
                 autoStart: true,
