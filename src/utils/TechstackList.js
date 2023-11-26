@@ -1,5 +1,5 @@
 import { BsFiletypeCss, BsFiletypeHtml, BsGithub } from "react-icons/bs";
-import { BiLogoFlutter, BiLogoMongodb, BiLogoReact } from "react-icons/bi";
+import { BiLogoMongodb, BiLogoReact } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 export const TechstackList = [
   {
@@ -12,28 +12,24 @@ export const TechstackList = [
     name: "CSS",
     icon: BsFiletypeCss,
   },
+  
   {
     _id: 3,
-    name: "Flutter",
-    icon: BiLogoFlutter,
-  },
-  {
-    _id: 4,
     name: "Mongodb",
     icon: BiLogoMongodb,
   },
   {
-    _id: 5,
+    _id: 4,
     name: "React JS",
     icon: BiLogoReact,
   },
   {
-    _id: 6,
+    _id: 5,
     name: "Express JS",
     icon: SiExpress,
   },
   {
-    _id: 7,
+    _id: 6,
     name: "Git/Github",
     icon: BsGithub,
   },

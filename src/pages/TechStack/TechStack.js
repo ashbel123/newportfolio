@@ -9,7 +9,7 @@ const TechStack = () => {
         <h2 className="col-12 mt-3 mb-1 text-center">Technologies Stack</h2>
         <hr />
         <p className="pb-3 text-center">
-          🤫 including programming languages, frameworks,databases,front-end and
+          including programming languages, frameworks,databases,front-end and
           back-end tools.
         </p>
         <div className="row">
