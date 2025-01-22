@@ -8,6 +8,7 @@ import {
   FcHome,
   FcPhone,
   FcVideoProjector,
+  FcOrganization,
 } from "react-icons/fc";
 import { Link } from "react-scroll";
 import { Fade} from "react-awesome-reveal";
@@ -16,7 +17,6 @@ const Menus = ({ toggle }) => {
     <>
       {toggle ? (
         <>
-          
           <div className="navbar-name">
             <h2>Ashbel Raj</h2>
           </div>
@@ -70,6 +70,18 @@ const Menus = ({ toggle }) => {
                   >
                     <FcBiotech />
                     Tech Stack
+                  </Link>
+                </div>
+                <div className="nav-link">
+                  <Link
+                    to="work"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcOrganization />
+                    Work Experience
                   </Link>
                 </div>
 

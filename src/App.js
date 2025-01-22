@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import OtherWorks from "./pages/OtherWorks/OtherWorks";
 import Projects from "./pages/Projects/Projects";
 import MobileNav from "./components/MobileNav/MobileNav";
+import WorkExp from "./pages/WorkExp/WorkExp";
 import { ToastContainer } from "react-toastify";
   import "react-toastify/dist/ReactToastify.css";
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <About />
           <Education />
           <TechStack />
+          <WorkExp />
           <Projects />
           <OtherWorks />
           <Contact />

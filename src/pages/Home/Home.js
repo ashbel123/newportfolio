@@ -15,6 +15,7 @@ const Home = () => {
                 strings: [
                   "Full Stack Developer!",
                   "Mern Stack Developer!",
+                  "DevOps Engineer!",
                   "Podcaster",
                 ],
                 autoStart: true,

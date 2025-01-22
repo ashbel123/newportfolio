@@ -24,7 +24,12 @@
 .education .vertical-timeline-element-sub-title{
     color: #1e1e2c;
 }
-
+.education h5{
+    color: grey;
+}
+.education h6{
+    color: green
+}
 /* ******************************************** */
 @media (max-width: 600px){
     .education{

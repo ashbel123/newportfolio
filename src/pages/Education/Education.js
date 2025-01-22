@@ -21,7 +21,7 @@ const Education = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "BLACK" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2020 - present"
+            date="2020 - 2024"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<IoMdSchool />}
           >
@@ -29,6 +29,10 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Sree Vidyanikethan Engineering College, IN
             </h4>
+            <h5 >
+              Jawaharlal Nehru Technological University (JNTUA)
+            </h5>
+            <h6>Computer Science And Engineering - 8.83 CGPA (84.07%)</h6>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -44,6 +48,10 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Narayana Junior College, IN
             </h4>
+            <h5 >
+              Board Of Intermediate Education Andhra Pradesh
+            </h5>
+            <h6>Math, Physics and Chemistry(MPC) - 9.88 CGPA (95.9%)</h6>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -59,6 +67,10 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Ravindra Bharathi School, IN
             </h4>
+            <h5 >
+              The Board Of Secondary Education of Andhra Pradesh
+            </h5>
+            <h6>10.0 CGPA (99%)</h6>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
