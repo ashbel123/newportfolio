@@ -8,6 +8,7 @@ import {
   FcGraduationCap,
   FcVideoProjector,
   FcEditImage,
+  FcOrganization,
 } from "react-icons/fc";
 import { BiMenuAltLeft, BiMenuAltRight } from "react-icons/bi";
 import { Link } from "react-scroll";
@@ -99,6 +100,20 @@ const MobileNav = () => {
                   >
                     <FcBiotech />
                     Tech Stack
+                  </Link>
+                </div>
+
+                <div className="nav-link">
+                  <Link
+                    to="work"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                    onClick={handleMenuClick}
+                  >
+                    <FcOrganization />
+                    Work Exp
                   </Link>
                 </div>
 
