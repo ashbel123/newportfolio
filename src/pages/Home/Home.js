@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
 import './Home.css';
-import Resume from '../../assets/docs/Balli Ashbel Raj_20121A0528.pdf.pdf';
+import Resume from '../../assets/docs/Balli_Ashbel_Raj.pdf';
 
 const Home = () => {
    return (
